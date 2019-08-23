@@ -8,6 +8,7 @@ import './index.scss';
 
 
 library.add(faSpinner);
+dom.watch();
 
 const heading = new Heading();
 const helloWorldButton = new HelloWorldButton();
